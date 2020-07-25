@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  postgresql:
+    image: postgres:10.10-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - postgresql:/var/lib/postgresql/data:delegated
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postgres
+
+volumes:
+  postgresql:
