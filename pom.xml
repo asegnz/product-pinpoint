@@ -11,7 +11,7 @@
     <groupId>com.asegnz.product</groupId>
     <artifactId>product-pinpoint</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>product-application</name>
+    <name>product-pinpoint</name>
     <description>Project with Spring Boot and Flyway</description>
 
     <developers>
